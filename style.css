@@ -1,0 +1,255 @@
+/* * {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+nav {
+    height: 60px;
+    width: 100%;
+    background-color: rgb(162, 42, 90);
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+
+}
+
+#logo {
+    background-color: green; 
+    height: 40px;
+    width: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 35px;
+    color: rgb(247, 109, 10);
+    margin-left: 30px;
+
+}
+
+ui li {
+    list-style: none;
+    display: inline-block;
+    margin: 0px 10px;
+    font-size: 22px;
+    text-decoration: underline;
+    text-underline-offset: 5px;
+
+}
+
+button {
+    height: 30px;
+    width: 60px;
+    margin-right: 15px;
+    color: rgb(247, 109, 10);
+    background-color: rgb(125, 66, 66);
+    border-radius: 5px;
+
+}
+
+button i {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#close {
+    display: none;
+}
+
+
+
+@media only screen and (max-width:700px) {
+
+    button i {
+        display: none;
+    }
+
+
+
+
+    #nav-menu {
+        background-color: rgb(125, 66, 66);
+        margin: 10px 0;
+        color: rgb(247, 109, 10);
+        position: absolute;
+        top: 50px;
+        left: 0;
+        width: 100%;
+
+
+    }
+
+    ui li {
+        display: block;
+        text-align: center;
+        margin: 20px 0;
+    }
+
+    #nav-menu {
+        display: none;
+    }
+
+
+} */
+
+
+
+/* nav1   */
+
+*nav {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    width: 100%;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    width: 100%;
+}
+
+.usama {
+    margin: 0;
+    padding: 0;
+    height: 60px;
+    width: 100%;
+    background-color: rgb(56, 150, 173);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+
+}
+
+.logo {
+    height: 40px;
+    width: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 35px;
+    color: rgb(247, 109, 10);
+    margin-left: 30px;
+
+}
+
+#nav-menu {
+    background-color: rgb(60, 117, 210);
+    margin: 0px 20;
+    color: rgb(236, 220, 208);
+    position: absolute;
+    top: 60px;
+    left: 0;
+    width: 100%;
+}
+
+.btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0px 20px;
+}
+
+#obtn {
+    height: 30px;
+    width: 60px;
+    color: white;
+    background-color: rgb(145, 168, 15);
+    border-radius: 15px;
+    border: solid white 2px;
+    margin: 0px 15px;
+}
+#obtn:hover {
+     background-color: rgb(169, 77, 15);
+
+}
+
+
+#cbtn {
+    height: 30px;
+    width: 60px;
+    color: white;
+    background-color: rgb(145, 168, 15);
+    border-radius: 15px;
+    border: solid white 2px;
+    margin: 0px 15px;
+}
+#cbtn:hover {
+     background-color: rgb(169, 77, 15);
+
+}
+
+.btn i {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#login {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 30px;
+    width: 60px;
+}
+
+#menu1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 30px;
+    width: 60px;
+}
+
+#cross1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 30px;
+    width: 60px;
+    display: none;
+}
+ul li{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    list-style: none;
+    margin :20px;
+    font-size: 25px;
+    
+}
+ul li:hover{
+    color: rgb(201, 201, 46);
+    text-decoration: underline;
+    text-underline-offset: 4px;
+}
+
+@media only screen and (max-width:700px) {
+    #login{
+        display: none;
+    }
+    button{
+        display: none;
+    }
+    #cross1{
+        display: none;
+    }
+
+}
+@media only screen and (max-width:900px) {
+      #login{
+        display: block;
+    }
+    button{
+        display: none;
+    }
+}
